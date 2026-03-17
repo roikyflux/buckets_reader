@@ -14,6 +14,7 @@ from app.exceptions import (
     ProviderConnectionError,
 )
 from app.models.response import ErrorDetail, ErrorResponse, HealthResponse
+from app.routers.bucket import router as bucket_router
 
 app = FastAPI(
     title="ETL Bucket Service",
@@ -30,6 +31,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(bucket_router)
 
 
 @app.exception_handler(InvalidCredentialsError)
