@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+env/
+
+# Logs and databases
+*.log
+*.pid
+*.db
+*.sqlite3
+
+# Test and coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pbr/
+
+# Static Analysis / Tooling
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.pytype/
+# .pyre_configuration  # Solo si decides no compartir la config de análisis
+# .pytype/
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+# !.vscode/settings.json  # Mantén esto si quieres compartir settings específicos
+.idea/
+*.swp
+*.swo
+
+# Project specific
+uvicorn_*.pid
+uvicorn_*.log
+dev.log
+prod.log

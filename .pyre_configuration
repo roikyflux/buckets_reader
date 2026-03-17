@@ -1,0 +1,7 @@
+{
+  "source_directories": ["."],
+  "search_path": [
+    "/home/roiky/Espacio/buckets_reader/.venv/lib/python3.12/site-packages",
+    "/home/roiky/Espacio/buckets_reader"
+  ]
+}
